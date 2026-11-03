@@ -2,6 +2,8 @@
 
 **One `AGENTS.md`. Every AI coding agent.**
 
+![agentsync demo](demo.gif)
+
 Claude Code reads `CLAUDE.md`. Gemini wants `GEMINI.md`. Cursor wants `.cursor/rules`. Copilot, Windsurf, Codex... each has its own file, and they drift apart within a week.
 
 `agentsync` keeps **one source of truth** and generates the rest. Zero dependencies, offline, one command.
