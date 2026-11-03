@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentsync"
+version = "0.1.0"
+description = "One AGENTS.md to rule them all: sync instructions and skills across Claude Code, Codex, Gemini, Cursor, Copilot and Windsurf."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["ai-agents", "claude-code", "codex", "cursor", "gemini", "agents-md", "developer-tools"]
+dependencies = []
+
+[project.scripts]
+agentsync = "agentsync.cli:main"
+
+[tool.setuptools]
+packages = ["agentsync"]
